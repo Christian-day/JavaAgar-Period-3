@@ -1,2 +1,11 @@
 
 *.class
+<<<<<<< HEAD
+=======
+
+*.class
+>>>>>>> origin/master
+
+*.class
+
+.project
