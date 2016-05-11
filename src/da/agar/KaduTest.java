@@ -1,3 +1,4 @@
+package da.agar;
 
 public class KaduTest
 {
