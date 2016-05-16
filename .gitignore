@@ -1,2 +1,28 @@
+<<<<<<< HEAD
 
 *.class
+||||||| merged common ancestors
+
+*.class
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+*.class
+>>>>>>> origin/master
+
+*.class
+
+.project
+>>>>>>> origin/master
+
+*.class
+
+*.class
+=======
+.classpath
+.project
+*.class
+.settings
+>>>>>>> origin/master
