@@ -5,4 +5,5 @@ public interface Consumable {
 	public int getPoints();
 	public int eat();
 	
+|
 }
