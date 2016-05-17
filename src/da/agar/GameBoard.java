@@ -26,12 +26,14 @@ public class GameBoard extends JPanel{
 	
 	
 	
-	
-	
+	/**
+	 * Method inherited from JPanel.  JPanel calls this method when the setVisible method is called.
+	 */
+	@Override
 	public void paint(Graphics g){
 		
 		for(int i = 0; i < objects.length; i++){
-			objects[i].paint(g);
+			objects[i].paint(g);	// Pass g2d to this method instead of g.
 		}
 		
 		
@@ -46,7 +48,7 @@ public class GameBoard extends JPanel{
 		int size = 50;
 		int xPosition = 0;
 		int yPosition = 0;
-		Graphics2D g2d = (Graphics2D) g;
+		Graphics2D g2d = (Graphics2D) g;	// Put this line first in the method
 		int x = (int)(Math.random() * 8);
 		g2d.setColor(colors[x]);
 		g2d.fillOval(xPosition,yPosition,size,size);
